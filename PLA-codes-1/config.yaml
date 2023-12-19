@@ -1,0 +1,15 @@
+train_batch_size: 128
+test_batch_size: 1
+lr: 1.e-4
+weight_decay: 1.e-5
+epochs: 30
+model_name: SiameseNet
+dataset_num: 2
+load_old_model: true
+seed: 2
+dataset_cls_name: CSIDatasetV3
+dataset_filename: csi
+input_dim: 360
+split_method: sequence
+train_percent: 0.8
+window_size: 20

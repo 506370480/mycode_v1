@@ -1,0 +1,58 @@
+train_size = [1%, 2%, 5%, 10%, 20%, 50%, 80%]
+normal-MLP is trained by CSI data not distance feature data
+
+80%
+# SVM acc: 0.9268487462066762, far: 0.021725239616613417, mdr: 0.1245608431810923
+# KNN acc: 0.9255709950487143, far: 0.021405750798722045, mdr: 0.12743532417757905
+# DT acc: 0.9139115157323111, far: 0.029073482428115017, mdr: 0.14308527626956244
+# MLP Accuracy: 0.93020 | False alarm: 0.02396 | Miss detection: 0.11562
+# CNN Accuracy: 0.93196 | False alarm: 0.02812 | Miss detection: 0.10795
+# normal-MLP: Accuracy: 0.87223 | False alarm: 0.06988 | Miss detection: 0.18565
+
+50%
+# SVM acc: 0.9686302070023001, far: 0.01086123179146435, mdr: 0.0518783542039356
+# KNN acc: 0.9678635318170202, far: 0.011244569384104269, mdr: 0.053028366981855354
+# DT acc: 0.9621134679274214, far: 0.016483516483516484, mdr: 0.059289547661640685
+# MLP  Accuracy: 0.96959 | False alarm: 0.01291 | Miss detection: 0.04792
+# CNN  Accuracy: 0.96984 | False alarm: 0.01418 | Miss detection: 0.04613
+# normal-MLP: Accuracy: 0.90198 | False alarm: 0.08985 | Miss detection: 0.10618
+
+20%
+# SVM acc: 0.9769596294373677, far: 0.011580544684929318, mdr: 0.03449928126497365
+# KNN acc: 0.9774787365730943, far: 0.010861752256209568, mdr: 0.03417984347548315
+# DT acc: 0.9733258794872819, far: 0.015174506828528073, mdr: 0.03817281584411436
+# MLP  Accuracy: 0.97748 | False alarm: 0.01086 | Miss detection: 0.03418
+# CNN Accuracy: 0.97644 | False alarm: 0.01286 | Miss detection: 0.03426
+# noraml-MLP: Accuracy: 0.89379 | False alarm: 0.06947 | Miss detection: 0.14294
+
+10%
+# SVM acc: 0.9788804884108898, far: 0.01128780349282976, mdr: 0.030950521757648897
+# KNN acc: 0.9793419231178788, far: 0.010648871219650717, mdr: 0.030666572016753036
+# DT acc: 0.9754729705746636, far: 0.013133607837569217, mdr: 0.03591964222332647
+# MLP Accuracy: 0.97913 | False alarm: 0.01122 | Miss detection: 0.03052
+# CNN Accuracy: 0.97867 | False alarm: 0.01186 | Miss detection: 0.03081
+# noraml-MLP: Accuracy: 0.81909 | False alarm: 0.17740 | Miss detection: 0.18442
+
+5%
+# SVM acc: 0.9803954536283543, far: 0.012643755464388997, mdr: 0.026565337278902413
+# KNN acc: 0.9801936915730715, far: 0.011231421077409376, mdr: 0.028381195776447644
+# DT acc: 0.9749142511265048, far: 0.012509247427533796, mdr: 0.03766225031945659
+# MLP Accuracy: 0.97986 | False alarm: 0.01359 | Miss detection: 0.02670
+# CNN  Accuracy: 0.97925 | False alarm: 0.01433 | Miss detection: 0.02717
+# normal-MLP: Accuracy: 0.78919 | False alarm: 0.13226 | Miss detection: 0.28936
+
+2%
+# SVM acc: 0.9797568210711608, far: 0.01714695527448168, mdr: 0.02333920073016494
+# KNN acc: 0.9805391661505363, far: 0.012843917068718217, mdr: 0.026077319251580938
+# DT acc: 0.9712488183329531, far: 0.02053722780023471, mdr: 0.03696460003911598
+# MLP Accuracy: 0.97982 | False alarm: 0.01487 | Miss detection: 0.02549
+# CNN Accuracy: 0.97956 | False alarm: 0.01213 | Miss detection: 0.02875
+# normal-MLP: Accuracy: 0.66376 | False alarm: 0.15386 | Miss detection: 0.51862
+
+1%
+# SVM acc: 0.979541787673443, far: 0.018263956114875766, mdr: 0.02265246853823814
+# KNN acc: 0.980187157147467, far: 0.012842852533075185, mdr: 0.026782833171990966
+# DT acc: 0.9636656986124557, far: 0.019748305905130686, mdr: 0.05292029686995805
+# MLP  Accuracy: 0.97938 | False alarm: 0.01207 | Miss detection: 0.02917
+# CNN  Accuracy: 0.97606 | False alarm: 0.00736 | Miss detection: 0.04053
+# normal-MLP: Accuracy: 0.62517 | False alarm: 0.23926 | Miss detection: 0.55291
